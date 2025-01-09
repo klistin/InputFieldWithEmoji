@@ -19,3 +19,9 @@
 3、了解了InputField实现的原理后，那么我们知道它是是怎么处理string的，以及emoji是怎么被过滤掉的，那我们就将这部分功能支持就好了，比如string 的处理改成StringInfo类处理。
 
 4、了解了Text的实现原理后，我们修改shader，准备emoji资源，最后将emoji渲染出来。
+
+
+后续如果有新的emoji怎么更新？
+把新加的图片重新加到EmojiFolder/emojiImg 目录下，然后用TexturePacker重新打图集即可
+
+![img.png](imgs/TexturePacker.png)
